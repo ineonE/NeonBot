@@ -5,7 +5,6 @@ require('dotenv').config();
 const prefix = process.env.PREFIX
 const client = new Discord.Client();
 
-
 const fs = require('fs');
 
 client.commands = new Discord.Collection();
@@ -39,16 +38,10 @@ if (message.mentions.size < 1 || !message.guild || message.author.bot) return;
           if (res) {
               message.delete()
               return message.reply(`Hey! ${user.username} is marked as AFK!`)
-           
-         
-
-    
-
 
             }
         })
 })
-
 
 client.login(process.env.DISCORD_TOKEN)
       
