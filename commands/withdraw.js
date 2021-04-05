@@ -23,7 +23,7 @@ module.exports = {
             }
         );
 
-            return message.channel.send(`${message.author.username}, you have withdrawn ${amount} <:Robux:828313040117825586>roux into you're wallet!`)
+            return message.channel.send(`${message.author.username}, you have withdrawn ${amount} roux into you're wallet!`)
         }catch(err){
             console.log(err)
         }
