@@ -11,7 +11,7 @@ module.exports = {
         const newEmbed = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setTitle(`${message.author.tag} balance!`)
-        .setDescription(`**<:Robux:828313040117825586> roux:** ${profileData.roux}!
+        .setDescription(`**roux:** ${profileData.roux}!
           **bank:** ${profileData.bank}!`)
           .setTimestamp()
         
