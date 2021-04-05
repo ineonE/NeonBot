@@ -19,7 +19,7 @@ module.exports = {
             } //uzoecunXXUUPp7GPw7TcjYHFTMh5zl7qNDb6F0MaOMqBrz81
         
         );
-        return message.channel.send(`${message.author.username}, you begged and recived ${randomNumber} <:Robux:828313040117825586>roux!`)
+        return message.channel.send(`${message.author.username}, you begged and recived ${randomNumber} roux!`)
         },
     };
   
