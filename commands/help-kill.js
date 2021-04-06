@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 module.exports = {
-    name: 'help-kik',
-    aliases: ['help-k'],
+    name: 'help-kill',
+    aliases: [],
     cooldown: 2,
     description: 'ahgjgkjgjgjgkjd',
     permissions: ['SEND_MESSAGES'],
