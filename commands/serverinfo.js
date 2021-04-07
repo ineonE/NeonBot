@@ -13,9 +13,9 @@ module.exports = {
         .setColor('RANDOM')
         .setThumbnail(message.guild.iconURL({ dynamic: true}))
         .addFields(
-            {name: 'Name:', value: `${message.guild.name}`},
-            {name: 'ID:', value: `${message.guild.id}`},
-            {name: 'Owner:', value: `${message.guild.owner.user.username}`},
+            {name: 'Name:', value: `${message.guild.name}`, inline: true,},
+            {name: 'ID:', value: `${message.guild.id}`, inline: true,},
+            {name: 'Owner:', value: `<@${message.guild.owner.user.id}>`, inline: true},
             {name: 'Members:', value: `${membersInServer}`, inline: true},
             {name: 'Region:', value: `${message.guild.region}`, inline: true},
             {name: 'Channels:', value: `${channels}`, inline: true},
