@@ -1,1 +1,1 @@
-Start
+node main.js
