@@ -2,8 +2,9 @@
 const Discord = require('discord.js');
 const mongoose = require('mongoose')
 require('dotenv').config();
-const prefix = process.env.PREFIX
+const config = require('./config.json');
 const client = new Discord.Client();
+const prefix = config.prefix;
 
 const fs = require('fs');
 
@@ -43,6 +44,6 @@ if (message.mentions.size < 1 || !message.guild || message.author.bot) return;
         })
 })
 
-client.login(process.env.DISCORD_TOKEN)
+client.login(config.token)
       
 
