@@ -4,6 +4,7 @@ const mongoose = require('mongoose')
 require('dotenv').config();
 const config = require('./config.json');
 const client = new Discord.Client();
+const prefix = config.prefix;
 
 const fs = require('fs');
 
